@@ -1,11 +1,15 @@
 # Volunteer   computing   with   BOINC
+
+**Joaquim Picó & Ian Palacín**
+
 ## Introduction to Volunteer Computing:
+
 Volunteer computing is a type of distributed computing in wich people donate their computers' unused resources
-to a research oriented project. This, provides substantial procesing power to reserchers at minimal cost, 
+to a research oriented project. This provides substantial processing power to researchers at minimal cost, 
 wich makes research more affordable and efficient. This type of computing is made mostly using cloud 
-distributed systems. In this systems a program is runing on a volunteer's computer and periodically contacts 
-the research aplication to to request jobs and report results. The one in charge of the comunication between
-the volunteer program and the researchers' aplication is the Middleware.    
+distributed systems. In these systems a program is running on a volunteer's computer and periodically contacts 
+the research application to request jobs and report results. The one in charge of the communication between
+the volunteer program and the researchers' application is the Middleware.    
 
 ## What is BOINC
 
@@ -35,12 +39,13 @@ radio telescope, and the Fermi gamma-ray satellite.
 new proteins and to predict their 3-dimensional shapes. Proteins are the molecular machines and building 
 blocks of life. 
 ## Going deeper into an example
-We will go deep on the minecraft example, in a case studio of finding a seed of a random generated world 
-starting from an image. We will focus on a project called the PackPNG project, that tries to find a seed 
+Here we will go deep on the Minecraft example, in this case study the purpose was to find a game seed of
+a random generated world in the search of it starting from an image. We will focus on this project, called 
+the PackPNG project, that tries to find the world seed 
 starting from a photo of a place in the random world. This project is really a huge one, not only with 
 computing complexity, also about mathematics. But we will go straight to the computing part, and where 
-distributed computing is applied. They ended having 2^48 seeds to check, so they thoght that runing this 
-computing part in a single personal computer was imposible. In order to accelerate the computation they 
-used BOINC to make a distributed volunteer computing system in wich 3500 people ended contribuing. After 
+distributed computing is applied. They ended having 2^48 seeds to check, so they thought that running this 
+part in a single computer would be impossible. In order to accelerate the computation they 
+used BOINC to make a distributed volunteer computing system in wich 3500 people ended contributing. After 
 some months and the 95% of the 2^48 seeds checked, they found the seed of the world that they were 
-searching.
+searching. This part will be further commented as it is the most interesting for us.
