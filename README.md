@@ -38,7 +38,9 @@ radio telescope, and the Fermi gamma-ray satellite.
 * Rosseta@Home: By running Rosetta@home on your computer you will speed up and extend our efforts to design 
 new proteins and to predict their 3-dimensional shapes. Proteins are the molecular machines and building 
 blocks of life. 
+
 ## Going deeper into an example
+
 Here we will go deep on the Minecraft example, in this case study the purpose was to find a game seed of
 a random generated world in the search of it starting from an image. We will focus on this project, called 
 the PackPNG project, that tries to find the world seed 
