@@ -13,6 +13,8 @@ the volunteer program and the researchers' application is the Middleware.
 
 ## Volunteer Computing Architecture
 ![image](architecture.png)
+
+
 This picture shows the basic structure of a volunteer computing 
 distributed system. We can see that on the top of the diagram we 
 have the publishers/reserchers, that are the one's that need the 
