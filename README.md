@@ -11,6 +11,17 @@ distributed systems. In these systems a program is running on a volunteer's comp
 the research application to request jobs and report results. The one in charge of the communication between
 the volunteer program and the researchers' application is the Middleware.    
 
+## Volunteer Computing Architecture
+![image](architecture.png)
+This picture shows the basic structure of a volunteer computing 
+distributed system. We can see that on the top of the diagram we 
+have the publishers/reserchers, that are the one's that need the 
+computational power to perform some task. They send a fragment of 
+the problem to a middle of the way server, and then the server sends 
+it to a volunteer worker. When the volunteer finishes the work, it 
+returns to the middle of the way server the results and then the 
+server replicates this results to the publishers/researchers.
+
 ## What is BOINC
 
 BOINC comes from Berkeley Open Infrastructure for Network Computing and is an open-source software that acts
