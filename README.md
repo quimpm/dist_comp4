@@ -65,3 +65,44 @@ used BOINC to make a distributed volunteer computing system in wich 3500 people 
 some months and the 95% of the 2^48 seeds checked, they found the seed of the world that they were 
 searching. This part will be further commented as it is the most interesting for us.
 
+## Advantages and Disadvantages
+#### Advantages:
+* It makes big computation problems a lot more easy to solve that by a
+unic computer.
+* It helps research teams that don't have the money and resources to 
+get a supercomputer to make big computations.
+* It's descentralized, so we don't have problems with space or 
+location of big computers to make the work.
+* It's so easy to help and contrivute to one of these projects, 
+it can be done from our home computers.
+* It has unlimited power, while more volunteers, faster is the computation.
+
+#### Disadvantages:
+* As it is computed by different volunteer computers, those 
+will have a different power and performance, depending on the 
+specifications of the computer and also if the volunteers are 
+using it while doing the computations. This means that the 
+computation work needs to have a lot of redundancy in orther 
+to be able for all volunteers to help in some way. 
+* Also, it can happen that in the middle of a computation work beeing
+done in a volnuteer computer, the volunteer closes the conection 
+with the server or turns off the 
+computer. Halting or even loosing all the computation made. 
+* Also it can happen that no volunteers are added to the network. 
+Without volunteers, thers no computational power so it's a big 
+handicap when starting a new or less known project.
+
+## Conclusions
+We ended concluding that this kind of distributed systems are
+a big solution to make big computations with a very low cost.
+If we talk about big networks like Roseta@home, that is based
+in BOINC and it has the amount of 2,918,435 processing units, we can 
+see the amount of power this kind of network can provide. And almost
+with no cost, only the cost handled by every volunteer and de mantainment
+of the system made by the publishers/researchers.
+Even this system has his years, it still works really well, 
+and with the increse of the technology in our lives comes 
+implicitly comes the increase of possible processing units on a 
+distributed network. 
+
+
