@@ -35,18 +35,18 @@ including Windows, MacOS, Android and Linux.
 
 ## Examples of Volunteer Compting with BOINC
 
-* PrimeGrid : A Volunteer Cloud Computing Network dedicated to find new prime numbers.
-* Minecraft@Home: A Volunteer Cloud Computing Network dedicated to understand the fundamental laws of
+* **PrimeGrid**: A Volunteer Cloud Computing Network dedicated to find new prime numbers.
+* **Minecraft@Home**: A Volunteer Cloud Computing Network dedicated to understand the fundamental laws of
 Minecraft to answer unanswered questions regarding the features and true limits of the game.
-* NumberFields@home: is a research project that uses Internet-connected computers to do research in number
+* **NumberFields@home**: is a research project that uses Internet-connected computers to do research in number
 theory. 
-* GPUGrid.net: is a distributed computing infrastructure devoted to biomedical research. Thanks to the 
+* **GPUGrid.net**: is a distributed computing infrastructure devoted to biomedical research. Thanks to the 
 contribution of volunteers, GPUGRID scientists can perform molecular simulations to understand the function
 of proteins in health and disease.
-* Einstein@Home: uses your computer's idle time to search for weak astrophysical signals from spinning 
+* **Einstein@Home**: uses your computer's idle time to search for weak astrophysical signals from spinning 
 neutron stars (often called pulsars) using data from the LIGO gravitational-wave detectors, the Arecibo 
 radio telescope, and the Fermi gamma-ray satellite.
-* Rosseta@Home: By running Rosetta@home on your computer you will speed up and extend our efforts to design 
+* **Rosseta@Home**: By running Rosetta@home on your computer you will speed up and extend our efforts to design 
 new proteins and to predict their 3-dimensional shapes. Proteins are the molecular machines and building 
 blocks of life. 
 
@@ -62,3 +62,4 @@ part in a single computer would be impossible. In order to accelerate the comput
 used BOINC to make a distributed volunteer computing system in wich 3500 people ended contributing. After 
 some months and the 95% of the 2^48 seeds checked, they found the seed of the world that they were 
 searching. This part will be further commented as it is the most interesting for us.
+
