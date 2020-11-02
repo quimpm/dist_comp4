@@ -33,6 +33,36 @@ BOINC has been ranked as the largest computing grid in the world. As a volunteer
 interoperability is crucial to be able to reach all the people, it supports various operating systems, 
 including Windows, MacOS, Android and Linux.
 
+## How BOINC works
+### Client workflow
+1. Once a client has BOINC, it starts getting tasks from the project's **scheduling server**. The taks depend on the computation power of the client.
+2. The client downloads the executable and the input files from the project's **data server**.
+3. The client runs the executables, producing output files.
+4. The client uploads the output files tho the **data server**.
+5. Later (it can take up to several days), the client reports the completed task to the **scheduling server**, and gets new tasks.
+This cicle is repeated indefinitely and BOINC does it all.
+
+### Credit
+
+The project's server keeps track of the amount of work a client has done, this is called credit. To ensure that the credit 
+is granted fairly, most BOINC projects work as follow:
+* Each task is sent to **two or more** computers.
+* When a computer reports a result, it claims a certain amount of credit, based on how much CPU time was used.
+* When at least two results have been returned, the server compares them. If the results agree, then users are granted the smaller of the claimed credits.
+![image](credit.png)
+
+### How the software works
+
+The shcedulers and data servers are installed on computers owned and managed by the project's owner. The programs that are installed 
+on the client computer are the following:
+* The **core client** (or client, named boinc.exe) communicates with the external servers via **HTTP** to get and report work. This is the part
+that runs and control the application.
+* **Applications** are the programs that do scientific computing.
+* The **GUI** is the part that provides a graphical interface. It communicates with the core client by a TCP connection. Normally is a local connection.
+* The **screensaver** runs when the client is away from the computer. It also communicates whith the core client by a TCP connection.
+![image](client.png)
+
+
 ## Examples of Volunteer Compting with BOINC
 
 * **PrimeGrid**: A Volunteer Cloud Computing Network dedicated to find new prime numbers.
@@ -51,15 +81,27 @@ new proteins and to predict their 3-dimensional shapes. Proteins are the molecul
 blocks of life. 
 
 ## Going deeper into an example
+### Introduction
+Minecraft is one of the most sold computer games in the history, also one with the biggest community (perfect for volunteer computing).
+The mechanics of the game can sometimes resemble to programming and that has made that a big part of the community are coders and
+have computer knowledge. The game is a big world where you can create almost everything in it. This world is generated randomly by a
+seed, two worlds created from the same seed are exactly identical. The possible number of different starting worlds is 
+18,446,744,073,709,551,616 (2^64). 
 
-Here we will go deep on the Minecraft example, in this case study the purpose was to find a game seed of
-a random generated world in the search of it starting from an image. We will focus on this project, called 
-the PackPNG project, that tries to find the world seed 
-starting from a photo of a place in the random world. This project is really a huge one, not only with 
-computing complexity, also about mathematics. But we will go straight to the computing part, and where 
-distributed computing is applied. They ended having 2^48 seeds to check, so they thought that running this 
-part in a single computer would be impossible. In order to accelerate the computation they 
-used BOINC to make a distributed volunteer computing system in wich 3500 people ended contributing. After 
-some months and the 95% of the 2^48 seeds checked, they found the seed of the world that they were 
-searching. This part will be further commented as it is the most interesting for us.
+### The problem
+There is a decoration image in the menu of the game. This image whas put by a developer in the early stages of the game. 
+De developer generated a random world, went to a random place and took a screenshot of a mountain, as he thought it would look cool
+in the menu. This was many years ago, so everyone that has played to the game, has been seing that image in the menu every single time,
+so it became a very famous image. 
+Not so long ago, a curious player wanted to play in the mountain the screenshot for the image was taken. He told the community its intentions,
+as he would needed help to find the exact world seed and the exact world location.
+
+### The solution
+A lot of smart people started to look at the game source code and how the pseudorandom worked in order to find a way to locate the world seed and 
+the world position. After months they did it, they had a program that given a game terrain, it could identify if it was the same as the one in 
+the picture or not, but they still had one problem, as we said there is around 2^64 different possible worlds, and each world has 8 times the surface
+of the Earth (yes, it is that big). A normal computer would be milions of years to do that computation, even a supercomputer couldn't do the job.
+They decided to open a volunteer computing project with BOINC, to see how many people would donate their computation power. The project ended having
+more than 3500 people contributing, it was a success. After some months, and the 95% of all the seeds checked, they found the one that they where 
+looking for.
 
