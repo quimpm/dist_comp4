@@ -50,6 +50,8 @@ is granted fairly, most BOINC projects work as follow:
 * Each task is sent to **two or more** computers.
 * When a computer reports a result, it claims a certain amount of credit, based on how much CPU time was used.
 * When at least two results have been returned, the server compares them. If the results agree, then users are granted the smaller of the claimed credits.
+
+
 ![image](credit.png)
 
 ### How the software works
@@ -93,7 +95,7 @@ seed, two worlds created from the same seed are exactly identical. The possible 
 
 ### The problem
 There is a decoration image in the menu of the game. This image whas put by a developer in the early stages of the game. 
-De developer generated a random world, went to a random place and took a screenshot of a mountain, as he thought it would look cool
+The developer generated a random world, went to a random place and took a screenshot of a mountain, as he thought it would look cool
 in the menu. This was many years ago, so everyone that has played to the game, has been seing that image in the menu every single time,
 so it became a very famous image. 
 Not so long ago, a curious player wanted to play in the mountain the screenshot for the image was taken. He told the community its intentions,
