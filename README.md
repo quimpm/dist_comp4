@@ -61,6 +61,8 @@ that runs and control the application.
 * **Applications** are the programs that do scientific computing.
 * The **GUI** is the part that provides a graphical interface. It communicates with the core client by a TCP connection. Normally is a local connection.
 * The **screensaver** runs when the client is away from the computer. It also communicates whith the core client by a TCP connection.
+
+
 ![image](client.png)
 
 
