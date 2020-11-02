@@ -12,9 +12,8 @@ the research application to request jobs and report results. The one in charge o
 the volunteer program and the researchers' application is the Middleware.    
 
 ## Volunteer Computing Architecture
+
 ![image](architecture.png)
-
-
 This picture shows the basic structure of a volunteer computing 
 distributed system. We can see that on the top of the diagram we 
 have the publishers/reserchers, that are the one's that need the 
@@ -111,40 +110,47 @@ looking for.
 #### Advantages:
 * It makes big computation problems a lot more easy to solve that by a
 unic computer.
-* It helps research teams that don't have the money and resources to 
-get a supercomputer to make big computations.
+
+* Can achieve a lot of computation with minimal cost. Which help ressearch
+ projects, that usually can't afford a supercomputer.
+
 * It's descentralized, so we don't have problems with space or 
 location of big computers to make the work.
-* It's so easy to help and contrivute to one of these projects, 
-it can be done from our home computers.
+
 * It has unlimited power, while more volunteers, faster is the computation.
 
 #### Disadvantages:
-* As it is computed by different volunteer computers, those 
-will have a different power and performance, depending on the 
-specifications of the computer and also if the volunteers are 
-using it while doing the computations. This means that the 
-computation work needs to have a lot of redundancy in orther 
-to be able for all volunteers to help in some way. 
-* Also, it can happen that in the middle of a computation work beeing
-done in a volnuteer computer, the volunteer closes the conection 
-with the server or turns off the 
-computer. Halting or even loosing all the computation made. 
-* Also it can happen that no volunteers are added to the network. 
-Without volunteers, thers no computational power so it's a big 
-handicap when starting a new or less known project.
+* As it is computed by different volunteers, each will
+ have different computation power depending on their 
+ specifications and also on what are they doing at the moment.
+ This means that the granulation of the jobs has to be pretty low.
+
+* Volunteers are way more unreliable than systems specifically made
+ for distributed computing, so it is needed a lot of redundancy 
+ to ensure that a single job is done.
+
+* For a project to have computation power it needs to be famous,
+ without volunteers, there is no computation. So its a handicap
+ for less known projects.
 
 ## Conclusions
-We ended concluding that this kind of distributed systems are
-a big solution to make big computations with a very low cost.
-If we talk about big networks like Roseta@home, that is based
-in BOINC and it has the amount of 2,918,435 processing units, we can 
-see the amount of power this kind of network can provide. And almost
-with no cost, only the cost handled by every volunteer and de mantainment
-of the system made by the publishers/researchers.
-Even this system has his years, it still works really well, 
-and with the increse of the technology in our lives comes 
-implicitly comes the increase of possible processing units on a 
-distributed network. 
+This type of distributed system comes with its perks and flaws, 
+low cost and high potential comes with unreliability and the need
+of depending on variables that are uncertain. One thing is sure,
+volunteer computing is not made for all the projects. 
+Normally the projects are related to science, and that is not coincidence.
+Science is of everyone's interest and searches for the truth, it is true that
+nowadays everyone has the power to compute, and all the power united
+is unimaginable, but it is important for the people that lends the computation
+to know that they are giving their help to a meaninful cause.
+
+A private enterprise that needs computation to take its own profit will never be
+able to take benefit of a volunteer computing distributed system, becouse it won't
+have volunteers.
+
+However, volunteer computing will keep growing, and it has a huge emergent potential.
+From one day to another a simple project can become one of the most powerful supercomputers 
+on earth, like the BOINC project Roseta@home, that at the moment has almost 
+3.000.000 processing units.
 
 
