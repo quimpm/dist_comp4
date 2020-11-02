@@ -114,16 +114,18 @@ looking for.
 
 ## Advantages and Disadvantages
 #### Advantages:
-* It makes big computation problems a lot more easy to solve that by a
-unic computer.
+* It makes big computation problems  possible to be solved. 
+As it is almost used for science related works and
+the computations related to it are really huge, sometimes neither a personal 
+or a supercomputer can tackle all the work.  
 
-* Can achieve a lot of computation with minimal cost. Which help ressearch
- projects, that usually can't afford a supercomputer.
+* Can achieve a lot of computation power at minimum cost. All he computation power
+is provided by volunteers so all the cost related to buy and mantain a cluster or a
+supercomputer doesn't exists.
 
-* It's descentralized, so we don't have problems with space or 
-location of big computers to make the work.
+* It's descentralized, so we don't have problems with space and location of big computers/clusters.
 
-* It has unlimited power, while more volunteers, faster is the computation.
+* It has unlimited power, while more volunteers more computation.
 
 #### Disadvantages:
 * As it is computed by different volunteers, each will
