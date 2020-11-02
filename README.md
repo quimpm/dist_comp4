@@ -13,6 +13,8 @@ the volunteer program and the researchers' application is the Middleware.
 
 ## Volunteer Computing Architecture
 ![image](architecture.png)
+
+
 This picture shows the basic structure of a volunteer computing 
 distributed system. We can see that on the top of the diagram we 
 have the publishers/reserchers, that are the one's that need the 
@@ -104,4 +106,45 @@ of the Earth (yes, it is that big). A normal computer would be milions of years 
 They decided to open a volunteer computing project with BOINC, to see how many people would donate their computation power. The project ended having
 more than 3500 people contributing, it was a success. After some months, and the 95% of all the seeds checked, they found the one that they where 
 looking for.
+
+## Advantages and Disadvantages
+#### Advantages:
+* It makes big computation problems a lot more easy to solve that by a
+unic computer.
+* It helps research teams that don't have the money and resources to 
+get a supercomputer to make big computations.
+* It's descentralized, so we don't have problems with space or 
+location of big computers to make the work.
+* It's so easy to help and contrivute to one of these projects, 
+it can be done from our home computers.
+* It has unlimited power, while more volunteers, faster is the computation.
+
+#### Disadvantages:
+* As it is computed by different volunteer computers, those 
+will have a different power and performance, depending on the 
+specifications of the computer and also if the volunteers are 
+using it while doing the computations. This means that the 
+computation work needs to have a lot of redundancy in orther 
+to be able for all volunteers to help in some way. 
+* Also, it can happen that in the middle of a computation work beeing
+done in a volnuteer computer, the volunteer closes the conection 
+with the server or turns off the 
+computer. Halting or even loosing all the computation made. 
+* Also it can happen that no volunteers are added to the network. 
+Without volunteers, thers no computational power so it's a big 
+handicap when starting a new or less known project.
+
+## Conclusions
+We ended concluding that this kind of distributed systems are
+a big solution to make big computations with a very low cost.
+If we talk about big networks like Roseta@home, that is based
+in BOINC and it has the amount of 2,918,435 processing units, we can 
+see the amount of power this kind of network can provide. And almost
+with no cost, only the cost handled by every volunteer and de mantainment
+of the system made by the publishers/researchers.
+Even this system has his years, it still works really well, 
+and with the increse of the technology in our lives comes 
+implicitly comes the increase of possible processing units on a 
+distributed network. 
+
 
